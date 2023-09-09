@@ -8,7 +8,8 @@ const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGODB_URI = "mongodb://127.0.0.1:27017/mydatabase";
+const MONGODB_URI =
+  "mongodb+srv://iammayankgangwarbly:prince99@cluster0.rhnec5i.mongodb.net/Agropean?retryWrites=true&w=majority";
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
